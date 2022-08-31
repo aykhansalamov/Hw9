@@ -4,9 +4,11 @@ public interface FamilyDao {
 
      List<Family> getAllFamilies();
 
-    // Family getFamilyByIndex(int index);
+     boolean getFamilyByIndex(int index);
 
      boolean deleteFamily(int index);
+     boolean deleteFamily(Family family1);
 
-     void saveFamily(Family family);
+     void saveFamily(Family family1);
+     List<Family> DisplayAllFamilies();
 }

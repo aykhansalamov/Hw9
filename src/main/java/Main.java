@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
 
 public class Main {
@@ -23,18 +26,7 @@ public class Main {
         Human child = new Human("Michael", "Karleone", 1977,
                 90,
                 childSchedule);
-//        Pet dog = new Pet(Species.DOG, "Rocky", 5, 45, habits) {
-//
-//        };
-//        Set<Pet> petSet = new HashSet<>();
-//        petSet.add();
-        //child.setPet(dog);
 
-        //Human man = new Human();
-
-        // father.greetPet();
-        //   child.describePet();
-        // Dog.respond();
 
         Random random = new Random();
         int secretNumber = random.nextInt(101);
@@ -44,7 +36,6 @@ public class Main {
         } else {
             feedTime = false;
         }
-        // child.feedPet(feedTime);
 
 
         //Pet.eat();
@@ -55,8 +46,7 @@ public class Main {
         family.deleteChild(0);
 
         System.out.println(family);
-//        System.out.println("Equality of dogs is " + pet.getNickName().equals(p.getNickName()));
-//        System.out.println("Equality of dog and cat is " + pet.getNickName().equals(cat.getNickName()));
+
         System.out.println("Family count is: " + family.countFamily());
 
     }

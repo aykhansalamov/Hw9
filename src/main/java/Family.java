@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -12,6 +11,8 @@ public class Family {
 
     private Set<Pet> petSet;
 
+    public Family(Woman mother, Man father) {
+    }
 
 
     public Human getMother() {
@@ -79,9 +80,11 @@ public class Family {
     public void deleteChild(int indexOfChild) {
         children.remove(indexOfChild);
     }
+
     public void deleteChildByName(Human child) {
         children.remove(child);
     }
+
     public int countFamily() {
 
         return this.children.size() + 2;
@@ -97,9 +100,19 @@ public class Family {
                 ", pet=" + petSet +
                 '}';
     }
+
     @Override
     protected void finalize() throws Throwable {
         System.out.println(this + " objects collected by garbage collector in Family class");
     }
 
+    public void add(List<Family> family1) {
+    }
+
+    public Object get(List<Family> family1) {
+        return family1;
+    }
+
+    public void remove(Object o) {
+    }
 }

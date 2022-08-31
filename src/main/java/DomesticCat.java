@@ -1,6 +1,3 @@
-import java.util.Collections;
-import java.util.HashSet;
-
 public class DomesticCat extends Pet implements AnimalFoul {
 
     public DomesticCat() {

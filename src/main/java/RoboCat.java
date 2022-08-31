@@ -1,6 +1,3 @@
-import java.util.Collections;
-import java.util.HashSet;
-
 public class RoboCat extends Pet{
     public RoboCat() {
         super("Robot",
