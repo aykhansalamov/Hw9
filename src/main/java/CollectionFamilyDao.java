@@ -28,6 +28,17 @@ public class CollectionFamilyDao implements FamilyDao {
         return true;
 
     }
+
+    @Override
+    public boolean getFamiliesBiggerThan(Family biggerFamily) {
+        return true;
+    }
+    @Override
+    public boolean getFamiliesLessThan(Family lessFamily) {
+        return true;
+    }
+
+
     @Override
     public boolean getFamilyByIndex(int index) {
         family.get(index);
@@ -40,3 +51,4 @@ public class CollectionFamilyDao implements FamilyDao {
     }
 
 }
+

@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2a7ed1a-2e9f-4d81-b32b-8c27cfd82419" name="Changes" comment="">
+    <list default="true" id="d2a7ed1a-2e9f-4d81-b32b-8c27cfd82419" name="Changes" comment="Some functions added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CollectionFamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CollectionFamilyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DomesticCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DomesticCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Family.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FamilyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FamilyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FamilyDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FamilyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FamilyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RoboCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoboCat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +78,17 @@
       <workItem from="1661860063756" duration="2237000" />
       <workItem from="1661866671963" duration="1030000" />
       <workItem from="1661883125234" duration="3346000" />
-      <workItem from="1661926312308" duration="6324000" />
+      <workItem from="1661926312308" duration="7388000" />
+      <workItem from="1661950636436" duration="4192000" />
     </task>
+    <task id="LOCAL-00001" summary="Some functions added">
+      <created>1661935893881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661935893882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some functions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some functions added" />
   </component>
 </project>

@@ -24,4 +24,10 @@ public class FamilyController {
     public void displayAllFamilies() {
         service.displayAllFamilies();
     }
+    public void getFamiliesBiggerThan() {
+        service.getFamiliesBiggerThan();
+    }
+    public void getFamiliesLessThan() {
+        service.getFamiliesLessThan();
+    }
 }

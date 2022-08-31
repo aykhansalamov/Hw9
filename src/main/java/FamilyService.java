@@ -28,4 +28,12 @@ public class FamilyService {
       System.out.println(CollectionFamilyDao.family);
 
     }
+
+
+    public void getFamiliesBiggerThan() {
+        boolean biggerFamily = (CollectionFamilyDao.family1.size() > 3);
+    }
+    public void getFamiliesLessThan() {
+        boolean lessFamily = (CollectionFamilyDao.family1.size() < 3);
+    }
 }
