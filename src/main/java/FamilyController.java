@@ -30,4 +30,15 @@ public class FamilyController {
     public void getFamiliesLessThan() {
         service.getFamiliesLessThan();
     }
+
+    public Family adoptChild(Human child1, Family family) {
+        return service.adoptChild(child1, family);
+    }
+    public int count() {
+        return service.count();
+    }
+
+    public boolean getFamilyById(int id) {
+        return service.getFamilyById(id);
+    }
 }
